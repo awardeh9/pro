@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+                    
+        input[type=text], select {
+        width: 20%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        }
+                     
+            .button {
+                border-radius: 6px;
+              background-color: #008CBA; /* Green */
+              border: none;
+              color: white;
+              padding: 14px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 12px;
+              margin: 6px 2px;
+              cursor: pointer;
+              
+             
+            }
+            ul{
+overflow:hidden;
+}
+li{
+display:inline-block;
+}
+        </style>
+        
+    </head>
+    <center>
+        
+       
+    </body>
+
+<h1> #TODO</h1>
+<ul>
+    <li><a href="p1.html">All</a></li>
+    <li><a href="p2.html">Active</a></li>
+    <li><a href="p3.html">Completed</a></li></li>
+   
+    </ul>
+
+<form action="/action_page.php">
+    
+    <input type="text" id="fname" name="TEXT1" placeholder="add details">
+<button class="button button">Add</button>
+<br><br>
+
+<form action="/action_page.php">
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+         
+  </form>
+<button onclick="getElementById('vehicle1').innerHTML=Date()">What day is today?</button>
+
+<p id="vehicle1"></p>
+</body>
+</html>
